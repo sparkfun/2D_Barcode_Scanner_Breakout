@@ -5147,7 +5147,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="PROD_ID" value="CONN-14122" x="-2.54" y="-39.37" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="2.54" y="11.43" size="0.762" layer="27" rot="R270" align="center"/>
 </element>
-<element name="U$1" library="SparkFun-Hardware" package="BARCODE_SCANNER_MOUNT" value="BARCODE_SCANNER_MOUNT" x="35.814" y="11.049" smashed="yes" rot="MR180"/>
+<element name="U$1" library="SparkFun-Hardware" package="BARCODE_SCANNER_MOUNT" value="BARCODE_SCANNER_MOUNT" x="35.814" y="11.049" smashed="yes" rot="MR180">
+<attribute name="PROD_ID" value="LPA-14926" x="35.814" y="11.049" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 <element name="U1" library="SparkFun-IC-Power" package="SOT23-5" value="3.3V" x="15.24" y="17.907" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.129" y="15.748" size="0.4064" layer="25" rot="R180"/>
 <attribute name="PROD_ID" value="VREG-12457" x="-25.4" y="61.087" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5284,15 +5286,15 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$5" library="output" package="#BUZZ#0" value="" x="24.511" y="11.43" smashed="yes" rot="MR0"/>
 <element name="U$6" library="output" package="#STAT#0" value="" x="25.654" y="5.207" smashed="yes" rot="MR0"/>
 <element name="U$7" library="output" package="#3#3V#0" value="" x="7.62" y="18.288" smashed="yes" rot="MR270"/>
-<element name="D2" library="SparkFun-LED" package="LED-0603" value="Yellow" x="23.876" y="3.175" smashed="yes" rot="R180">
-<attribute name="NAME" x="23.876" y="2.54" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-09003" x="23.876" y="3.175" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="23.876" y="3.81" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
-</element>
 <element name="R1" library="SparkFun-Resistors" package="0603" value="1k" x="23.876" y="1.27" smashed="yes">
 <attribute name="NAME" x="23.876" y="2.032" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07856" x="23.876" y="1.27" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="23.876" y="0.508" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="D2" library="SparkFun-LED" package="LED-0603" value="BLUE" x="23.876" y="3.175" smashed="yes" rot="R180">
+<attribute name="NAME" x="23.876" y="2.54" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-08575" x="23.876" y="3.175" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" x="23.876" y="3.81" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 </elements>
 <signals>
