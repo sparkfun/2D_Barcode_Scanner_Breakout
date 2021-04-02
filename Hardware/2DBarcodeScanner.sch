@@ -23556,7 +23556,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="U$1" library="SparkFun-Hardware" deviceset="BARCODE_SCANNER_MOUNT" device=""/>
+<part name="U2" library="SparkFun-Hardware" deviceset="BARCODE_SCANNER_MOUNT" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="USB_C" device="_2-LAYER_PADS"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-IC-Power" deviceset="V_REG_AP2112" device="K-3.3V" value="3.3V"/>
@@ -23592,7 +23592,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM-TALL"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_06" device="NO_SILK_FEMALE_PTH"/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
+<part name="PWR_LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
@@ -23638,9 +23638,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="167.64" y="7.62" size="2.54" layer="94" font="vector">Nick Poole
 Revised By: Priyanka Makin</text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
+<text x="27.94" y="129.54" size="1.778" layer="94" font="vector">Vin Range: 2.5 - 6.0 V</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="219.456" y="29.21" smashed="yes"/>
+<instance part="U2" gate="G$1" x="219.456" y="29.21" smashed="yes"/>
 <instance part="J2" gate="J1" x="93.98" y="154.94" smashed="yes">
 <attribute name="VALUE" x="91.44" y="142.494" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
 <attribute name="NAME" x="91.44" y="165.354" size="1.778" layer="95" font="vector"/>
@@ -23757,7 +23758,7 @@ Revised By: Priyanka Makin</text>
 <attribute name="VALUE" x="170.18" y="145.034" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="170.18" y="165.608" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="JP1" gate="G$1" x="50.8" y="66.04" smashed="yes" rot="R90">
+<instance part="PWR_LED" gate="G$1" x="50.8" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.26" y="63.5" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 <instance part="FD1" gate="G$1" x="231.14" y="30.48" smashed="yes"/>
@@ -24105,7 +24106,7 @@ Revised By: Priyanka Makin</text>
 </net>
 <net name="STATUS_OUT" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="PWR_LED" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="76.2" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="73.66" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
@@ -24121,7 +24122,7 @@ Revised By: Priyanka Makin</text>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="PWR_LED" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="60.96" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 </segment>
