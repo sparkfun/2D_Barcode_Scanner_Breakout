@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -5578,10 +5578,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="4.699" y1="13.589" x2="4.699" y2="13.1826" width="0.1778" layer="16"/>
 <wire x1="4.699" y1="13.1826" x2="3.937" y2="12.4206" width="0.1778" layer="16"/>
 <wire x1="6.07296875" y1="12.38703125" x2="6.01" y2="12.45" width="0.2032" layer="1"/>
-<wire x1="9.721" y1="12.38703125" x2="6.07296875" y2="12.38703125" width="0.2032" layer="1"/>
-<wire x1="10.956640625" y1="11.151390625" x2="9.721" y2="12.38703125" width="0.2032" layer="1"/>
-<wire x1="13.691390625" y1="11.151390625" x2="10.956640625" y2="11.151390625" width="0.2032" layer="1"/>
-<wire x1="20.07" y1="17.53" x2="13.691390625" y2="11.151390625" width="0.2032" layer="1"/>
+<wire x1="9.594" y1="12.38703125" x2="6.07296875" y2="12.38703125" width="0.2032" layer="1"/>
+<wire x1="10.956640625" y1="11.024390625" x2="9.594" y2="12.38703125" width="0.2032" layer="1"/>
+<wire x1="13.564390625" y1="11.024390625" x2="10.956640625" y2="11.024390625" width="0.2032" layer="1"/>
+<wire x1="20.07" y1="17.53" x2="13.564390625" y2="11.024390625" width="0.2032" layer="1"/>
 <contactref element="J3" pad="7"/>
 <wire x1="22.94" y1="17.53" x2="20.07" y2="17.53" width="0.2032" layer="1"/>
 </signal>
@@ -5600,10 +5600,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="3.302" y1="13.0048" x2="3.302" y2="11.811" width="0.1778" layer="16"/>
 <wire x1="3.81" y1="11.4554" x2="3.6576" y2="11.4554" width="0.1778" layer="16"/>
 <wire x1="3.6576" y1="11.4554" x2="3.302" y2="11.811" width="0.1778" layer="16"/>
-<wire x1="19.998590625" y1="18.03" x2="13.60258125" y2="11.633990625" width="0.2032" layer="1"/>
-<wire x1="9.78793125" y1="12.95" x2="6.01" y2="12.95" width="0.2032" layer="1"/>
-<wire x1="11.103940625" y1="11.633990625" x2="9.78793125" y2="12.95" width="0.2032" layer="1"/>
-<wire x1="13.60258125" y1="11.633990625" x2="11.103940625" y2="11.633990625" width="0.2032" layer="1"/>
+<wire x1="19.998590625" y1="18.03" x2="13.47558125" y2="11.506990625" width="0.2032" layer="1"/>
+<wire x1="9.66093125" y1="12.95" x2="6.01" y2="12.95" width="0.2032" layer="1"/>
+<wire x1="11.103940625" y1="11.506990625" x2="9.66093125" y2="12.95" width="0.2032" layer="1"/>
+<wire x1="13.47558125" y1="11.506990625" x2="11.103940625" y2="11.506990625" width="0.2032" layer="1"/>
 <contactref element="J3" pad="6"/>
 <wire x1="22.94" y1="18.03" x2="19.998590625" y2="18.03" width="0.2032" layer="1"/>
 </signal>
