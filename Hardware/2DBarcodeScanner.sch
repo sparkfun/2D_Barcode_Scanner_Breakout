@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -23637,7 +23637,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="215.9" y="177.8" size="2.54" layer="94" font="vector">Power LED</text>
 <text x="167.64" y="7.62" size="2.54" layer="94" font="vector">Nick Poole
 Revised By: Priyanka Makin</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v11</text>
 <text x="27.94" y="129.54" size="1.778" layer="94" font="vector">Vin Range: 2.5 - 6.0 V</text>
 </plain>
 <instances>

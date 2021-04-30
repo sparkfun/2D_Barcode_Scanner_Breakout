@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -198,7 +198,7 @@
 <text x="29.21" y="-16.51" size="1.778" layer="51" font="vector" ratio="15">Nick Poole
 Revised by: Priyanka Makin
 </text>
-<text x="27.305" y="0.508" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">v10</text>
+<text x="27.305" y="0.508" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">v11</text>
 <dimension x1="2.54" y1="22.86" x2="2.54" y2="2.54" x3="-2.54" y3="12.7" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="25.4" x2="0" y2="0" x3="-6.35" y3="12.7" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="25.4" x2="11.43" y2="25.4" x3="5.715" y3="27.94" textsize="1.778" textratio="15" layer="47" unit="inch"/>
