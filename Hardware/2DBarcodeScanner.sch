@@ -23939,26 +23939,26 @@ Revised By: Priyanka Makin</text>
 </net>
 <net name="TXO" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="4"/>
-<wire x1="180.34" y1="157.48" x2="187.96" y2="157.48" width="0.1524" layer="91"/>
-<label x="187.96" y="157.48" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="8"/>
+<wire x1="190.5" y1="88.9" x2="195.58" y2="88.9" width="0.1524" layer="91"/>
+<label x="195.58" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="9"/>
-<wire x1="190.5" y1="91.44" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
-<label x="195.58" y="91.44" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="RXI" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="5"/>
 <wire x1="180.34" y1="160.02" x2="187.96" y2="160.02" width="0.1524" layer="91"/>
 <label x="187.96" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="RXI" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="8"/>
-<wire x1="190.5" y1="88.9" x2="195.58" y2="88.9" width="0.1524" layer="91"/>
-<label x="195.58" y="88.9" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="9"/>
+<wire x1="190.5" y1="91.44" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
+<label x="195.58" y="91.44" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="4"/>
+<wire x1="180.34" y1="157.48" x2="187.96" y2="157.48" width="0.1524" layer="91"/>
+<label x="187.96" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="5V" class="0">

@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -5322,10 +5322,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$21" library="output" package="#STAT_#0" value="" x="19.05" y="7.112" smashed="yes" rot="MR270"/>
 <element name="U$28" library="output" package="#3#3V_#0" value="" x="13.97" y="6.35" smashed="yes" rot="R270"/>
 <element name="U$29" library="output" package="#3#3V_#0" value="" x="13.97" y="6.35" smashed="yes" rot="MR270"/>
-<element name="U$26" library="output" package="#TX_#0" value="" x="11.43" y="5.08" smashed="yes" rot="R270"/>
-<element name="U$27" library="output" package="#TX_#0" value="" x="11.43" y="5.08" smashed="yes" rot="MR270"/>
-<element name="U$30" library="output" package="#RX_#0" value="" x="8.89" y="5.08" smashed="yes" rot="R270"/>
-<element name="U$31" library="output" package="#RX_#0" value="" x="8.89" y="5.08" smashed="yes" rot="MR270"/>
+<element name="U$26" library="output" package="#TX_#0" value="" x="8.89" y="5.08" smashed="yes" rot="R270"/>
+<element name="U$27" library="output" package="#TX_#0" value="" x="8.89" y="5.08" smashed="yes" rot="MR270"/>
+<element name="U$30" library="output" package="#RX_#0" value="" x="11.43" y="5.08" smashed="yes" rot="R270"/>
+<element name="U$31" library="output" package="#RX_#0" value="" x="11.43" y="5.08" smashed="yes" rot="MR270"/>
 <element name="U$32" library="output" package="#GND_#0" value="" x="6.35" y="6.096" smashed="yes" rot="R270"/>
 <element name="U$33" library="output" package="#GND_#0" value="" x="6.35" y="6.096" smashed="yes" rot="MR270"/>
 <element name="U$4" library="output" package="#SCAN#0" value="" x="31.115" y="15.24" smashed="yes" rot="R270"/>
@@ -5440,18 +5440,19 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="22.904" y1="15.494" x2="19.939" y2="15.494" width="0.2032" layer="1"/>
 </signal>
 <signal name="TXO">
-<contactref element="J4" pad="4"/>
-<wire x1="20.34" y1="16.53" x2="11.43" y2="7.62" width="0.2032" layer="1"/>
-<wire x1="11.43" y1="7.62" x2="11.43" y2="1.27" width="0.2032" layer="1"/>
-<contactref element="J3" pad="9"/>
-<wire x1="22.94" y1="16.53" x2="20.34" y2="16.53" width="0.2032" layer="1"/>
+<contactref element="J3" pad="8"/>
+<contactref element="J4" pad="5"/>
+<wire x1="8.89" y1="1.27" x2="8.89" y2="5.68418125" width="0.2032" layer="1"/>
+<wire x1="20.23581875" y1="17.03" x2="22.94" y2="17.03" width="0.2032" layer="1"/>
+<wire x1="8.89" y1="5.68418125" x2="20.23581875" y2="17.03" width="0.2032" layer="1"/>
 </signal>
 <signal name="RXI">
-<contactref element="J4" pad="5"/>
-<wire x1="8.89" y1="5.715" x2="8.89" y2="1.27" width="0.2032" layer="1"/>
-<contactref element="J3" pad="8"/>
-<wire x1="20.205" y1="17.03" x2="8.89" y2="5.715" width="0.2032" layer="1"/>
-<wire x1="22.94" y1="17.03" x2="20.205" y2="17.03" width="0.2032" layer="1"/>
+<contactref element="J3" pad="9"/>
+<contactref element="J4" pad="4"/>
+<wire x1="22.94" y1="16.53" x2="22.8694" y2="16.4594" width="0.2032" layer="1"/>
+<wire x1="22.8694" y1="16.4594" x2="20.23858125" y2="16.4594" width="0.2032" layer="1"/>
+<wire x1="20.23858125" y1="16.4594" x2="11.43" y2="7.65081875" width="0.2032" layer="1"/>
+<wire x1="11.43" y1="7.65081875" x2="11.43" y2="1.27" width="0.2032" layer="1"/>
 </signal>
 <signal name="5V">
 <contactref element="U1" pad="3"/>
