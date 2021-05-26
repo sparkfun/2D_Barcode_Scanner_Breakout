@@ -1,9 +1,9 @@
 2D Barcode Scanner Breakout
 ========================================
 
-![2D Barcode Scanner Breakout](https://cdn.sparkfun.com/assets/parts/1/5/2/7/6/16441-2D_Barcode_Scanner_Breakout-01.jpg)
+![2D Barcode Scanner Breakout](https://cdn.sparkfun.com/assets/parts/1/7/4/0/7/18088-SparkFun_2D_Barcode_Scanner-06.jpg)
 
-[*2D Barcode Scanner Breakout (SPX-16441)*](https://www.sparkfun.com/products/16441)
+[*2D Barcode Scanner Breakout (BOB-18088)*](https://www.sparkfun.com/products/18088)
 
 The DYScan DE2120 is one of the coolest little barcode scanners we've ever seen. This tiny "scan engine" will read 20 different barcode symbologies — both 1D and 2D! This is achieved by using a camera coupled with on-board image processing to identify and decode everything from UPC codes to QR codes. The module also features two LEDs: one for illumination and one to project the red line that you're used to seeing from laser-based scanners. 
 
@@ -13,14 +13,20 @@ The module can be configured either by using the serial interface or by scanning
 
 Repository Contents
 -------------------
+* **/Documentation** - Datasheet & Settings Manual
 * **/Hardware** - Eagle design files (.brd, .sch)
 
 Documentation
 --------------
-* [Schematic](https://cdn.sparkfun.com/assets/3/8/9/6/0/2D_Barcode_Scanner.pdf)
-* [Datasheet](https://cdn.sparkfun.com/assets/6/4/6/1/f/DY_SCAN_Specification-DE2120_1___2_.pdf)
-* [Settings Manual](https://cdn.sparkfun.com/assets/b/5/0/e/e/DY_Scan_Setting_Manual-DE2120___19.4.6___.pdf)
-* [Eagle Files](https://cdn.sparkfun.com/assets/2/d/f/7/b/2DBarcodeScanner.zip)
+* [SparkFun DE2120 Arduino Library](https://github.com/sparkfun/SparkFun_DE2120_Arduino_Library)
+* [SparkFun DE2120 Python Package](https://github.com/sparkfun/DE2120_Py)
+* [2D Barcode Scanner Breakout Hookup Guide](https://learn.sparkfun.com/tutorials/2d-barcode-scanner-breakout-hookup-guide)
+
+Product Versions
+
+* [BOB-18088](https://www.sparkfun.com/products/18088)
+* [SPX-16441](https://www.sparkfun.com/products/16441)
+* [SPX-16410](https://www.sparkfun.com/products/16410)
 
 License Information
 -------------------
@@ -34,5 +40,3 @@ If you have any questions or concerns on licensing, please contact technical sup
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
-
-_<COLLABORATION CREDIT>_
