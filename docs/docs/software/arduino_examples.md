@@ -36,7 +36,7 @@ The setup attempts to initialize the barcode scanner and, if successful, the mai
 The second example shows how to adjust a selection of seven scanner settings using a "menu" in the serial monitor. Select and upload the example and open a serial monitor with the baud set to **115200**. After initializing the DE2290, the code prints out the selection options for the user.
 
 <figure>
-[![Screenshot showing Arduino Serial Monitor of options menu](/img/DE2290-Arduino_Example2.jpg)
+![Screenshot showing Arduino Serial Monitor of options menu](/img/DE2290-Arduino_Example2.jpg)
 </figure>
 
 Select an option number by sending the corresponding number and hit <kbd>ENTER</kbd>. The code then prints out the available options for the selected setting. Enter the number corresponding to the preferred behavior and hit <kbd>ENTER</kbd> again to change the setting. After the setting is adjusted, the code prints if the adjustment was successful and returns to the "main menu".

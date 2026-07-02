@@ -1,4 +1,4 @@
-# SparkFun DE2290 Python Package Setup
+# DE2290 Python Package Setup
 
 The SparkFun DE2290 Python package helps streamline sending commands and receiving barcode data from the 2D Barcode Scanner Breakout. Install the `sparkfun-de2290d` Python package hosted by PyPi through a command interface or if you prefer to manually download and build the libraries from the [GitHub Repository](https://github.com/sparkfun/DE2290D_Py), 
 
@@ -7,7 +7,7 @@ The SparkFun DE2290 Python package helps streamline sending commands and receivi
 The Raspberry Pi OS should automatically install any necessary drivers for the 2D Barcode Scanner when it is connected and operating in USB-COM Mode. Find the USB-COM barcode on page 23 in the [Scan Settings Manual](/ref/DY%20SCAN%202D%20barcode%20scanner%20DE2290D.%20DE2290H%20setting%20manual.pdf) (the DE22900 defaults to USB-Keyboard mode) or scan it below:
 
 <figure>
-[![USB-COM Mode barcode from the Scan Settingss Manual](/img/USBCOM-Barcode.png)]
+![USB-COM Mode barcode from the Scan Settingss Manual](/img/USBCOM-Barcode.png)
 </figure>
 
 ### PyPi Installation

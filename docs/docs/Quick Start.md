@@ -4,10 +4,16 @@ In this Quick Start Guide we'll show how to connect the 2D Barcode Scanner - V2 
 
 ## USB Assembly
 
-Start by connecting the Barcode Scanner Breakout to a computer with a USB-C cable. Next, find scan the USB-COM Mode barcode from the [Scan Settings Manual](/ref/DY%20SCAN%202D%20barcode%20scanner%20DE2290D.%20DE2290H%20setting%20manual.pdf) (the DE2290 defaults to USB-Keyboard mode) on page 35 or you can scan it directly below:
+Start by connecting the Barcode Scanner Breakout to a computer with a USB-C cable. 
 
 <figure>
-[![USB-COM Mode barcode from the Scan Settingss Manual](/img/USBCOM-Barcode.png)]
+![Barcode Scanner Breakout connected over USB](/docs/static/img/Barcode_USB.jpg)
+</figure>
+
+Next, find scan the USB-COM Mode barcode from the [Scan Settings Manual](/ref/DY%20SCAN%202D%20barcode%20scanner%20DE2290D.%20DE2290H%20setting%20manual.pdf) (the DE2290 defaults to USB-Keyboard mode) on page 35 or you can scan it directly below:
+
+<figure>
+![USB-COM Mode barcode from the Scan Settingss Manual](/img/USBCOM-Barcode.png)
 </figure>
 
 The DE2290 defaults to operate in Trigger Mode to scan barcodes so you'll need to press the trigger button to initiate a scan. Once the DE2290 is in USB-COM mode, your computer should automatically download and install the device's driver if needed. 

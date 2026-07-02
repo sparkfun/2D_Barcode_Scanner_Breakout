@@ -1,6 +1,8 @@
+# Hardware Overview
+
 Let's take a closer look at the DYScan DE2290 scanner module as well as the other hardware on the 2d Barcode Scanner Breakout - V2.
 
-# DE2290 Barcode Scanner Module
+## DE2290 Barcode Scanner Module
 
 The DE2290 barcode scanner module from DYScan combines a CMOS camera with on-board image processing to identify and decode 20 different barcode symbologies in both 1D and 2D on a variety of mediums (paper, screen, etc.). The DE2290 also includes two user-configurable LEDs. One super bright white LED to help illuminate the scanning area and one red LED to project the red line like those found on laser-based scanners.
 
@@ -51,7 +53,7 @@ We've routed the trigger pin to a pushbutton labeled SCAN, the status LED pin to
 
 Use the Trigger Button (or pin) to initiate a scan when the DE2290 is in Trigger Mode (default). The buzzer defaults to play a tone on power-up and on a successful decode. The STAT LED illuminates on power-up and on a successful scan. The STAT LED is not configurable through software but can be disabled through the STAT LED Jumper.
 
-# Solder Jumpers
+## Solder Jumpers
 
 The 2D Barcode Scanner Breakout has three jumpers labeled <code>**PWR**</code>, <code>**STAT_LED**</code> and <code>**BUZZ**</code>. These three jumpers all complete their respective circuits and are **CLOSED** by default.
 
@@ -61,6 +63,6 @@ The STAT LED Jumper connects the anode of the status LED to a transistor via a *
 
 The Buzzer Jumper completes the buzzer driver circuit and connects the voltage input (positive) pin of the buzzer to **3.3V** via a **10&ohm;** resistor. Open the jumper to disable the on board buzzer. Similar to the STAT LED, opening this jumper is particularly useful when an external buzzer is connected to the buzzer driver PTH pin.
 
-# Board Dimensions
+## Board Dimensions
 
 The 2D Barcode Scanner Breakout measures 1.75in x 1.00in (44.45mm x 25.4mm) with two mounting holes that fit a [4-40 screw](https://www.sparkfun.com/products/10453).

@@ -1,4 +1,4 @@
-# Arduino Setup
+# DE2290 Arduino Library Setup
 
 ## SparkFun DE2290
 

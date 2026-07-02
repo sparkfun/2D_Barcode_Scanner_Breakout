@@ -1,4 +1,4 @@
-# SparkFun DE2290 Python Package Examples
+# DE2290 Python Package Examples
 
 The DE2290 Python package includes three examples to demonstrate the basics of using the 2D Barcode Scanner Breakout with Python. In this section we'll cover the examples and highlight how they work.
 
@@ -7,7 +7,7 @@ To use the examples, open them from the DE2290 Py location or copy the code from
 **Reminder:** The DE2290 Python Package communicates with the 2D Barcode Scanner Breakout over USB so make sure to set the DE2290 to USB-COM mode by scanning the barcode below or sending the appropriate serial command:
 
 <figure>
-[![DE2290 TTL Mode Barcode](/img/TTLRS232-Barcode.png)]
+![DE2290 TTL Mode Barcode](/img/TTLRS232-Barcode.png)
 </figure>
 
 The 2D Barcode Scanner saves all settings during power cycles so you can configure the DE2290 however you would like (e.g. scanning mode, image flipping, LED settings, etc.) prior to using the examples.
