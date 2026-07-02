@@ -14,7 +14,11 @@ The breakout makes it easy to use the scanner module by connecting the scanner's
 
 **Note About Versions**
 
-This version of the 2D Barcode Scanner Breakout (V2) is physically identical to the previous version and the DE2290 functions the same as the DE2290 but uses a different naming convention for the command set. This version works as a drop-in replacement but must use the updated commands. The previous version's Arduino library and Python package have been ported to new versions that use the DE2290 command set.
+This version of the 2D Barcode Scanner Breakout (V2) is physically identical to the previous version and the DE2290 functions the same as the DE2120 but uses a different naming convention for the command set. This version works as a drop-in replacement but must use the updated commands. The previous version's Arduino library and Python package have been ported to new versions that use the DE2290 command set. The silkscreen on this version reads "2D Barcode Scanner V2". Refer to the image below to make sure you are using the correct version:
+
+<figure>
+![Photo showing version indicator](/img/2DBarcodeVersions.jpg)
+</figure>
 
 ## Topics Covered
 
