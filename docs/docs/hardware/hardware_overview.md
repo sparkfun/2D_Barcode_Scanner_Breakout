@@ -3,9 +3,8 @@ Let's take a closer look at the DYScan DE2290 scanner module as well as the othe
 # DE2290 Barcode Scanner Module
 
 The DE2290 barcode scanner module from DYScan combines a CMOS camera with on-board image processing to identify and decode 20 different barcode symbologies in both 1D and 2D on a variety of mediums (paper, screen, etc.). The DE2290 also includes two user-configurable LEDs. One super bright white LED to help illuminate the scanning area and one red LED to project the red line like those found on laser-based scanners.
--> [![Highlighting the DE2290 Barcode Scanner Module](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/1/5/9/9/2D_Barcode_Scanner_Breakout-DE2290.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/1/5/9/9/2D_Barcode_Scanner_Breakout-DE2290.jpg) <-
 
-The DE2290 interfaces over USB Serial and TTL UART and can operate in several modes including USB Keyboard (default), USB COM, USB HID and TTL. Configure the communication modes and other settings by scanning barcodes or sending serial commands from the [Scan Settingss Manual](https://cdn.sparkfun.com/assets/b/5/0/e/e/DY_Scan_Setting_Manual-DE2290___19.4.6___.pdf). 
+The DE2290 interfaces over USB Serial and TTL UART and can operate in several modes including USB Keyboard (default), USB COM, USB HID and TTL. Configure the communication modes and other settings by scanning barcodes or sending serial commands from the [Scan Settingss Manual](/ref/DY%20SCAN%202D%20barcode%20scanner%20DE2290D.%20DE2290H%20setting%20manual.pdf). 
 
 When in USB Keyboard mode, the scanner behaves as a keyboard input (think your typical scanner on a Point of Sale system) and "types" the scanned barcode data followed by a carriage return. In USB-COM mode, the scanner behaves as a USB COM device and in TTL mode, the scanner operates as a TTL UART device to interface with a controller.
 

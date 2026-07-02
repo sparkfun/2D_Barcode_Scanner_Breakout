@@ -39,9 +39,9 @@ const config: Config = {
         defaultLocale: 'en',
         locales: ['en'],
     },
-    // plugins: [
-    //     '@docsearch/docusaurus-adapter',
-    // ],
+    plugins: [
+        '@docsearch/docusaurus-adapter',
+    ],
     presets: [
         [
             'classic',
